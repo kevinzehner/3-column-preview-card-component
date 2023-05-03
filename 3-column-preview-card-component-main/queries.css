@@ -1,0 +1,44 @@
+@media (max-width: 69em) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 47em) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 38em) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .cards {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .sedan {
+    padding: 5rem;
+  }
+
+  .SUV {
+    padding: 5rem;
+  }
+
+  .luxury {
+    padding: 5rem;
+  }
+
+  .card-text {
+    margin-bottom: 4rem;
+  }
+}
